@@ -2,11 +2,13 @@ import { ApplicationInitStatus, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ClassDirective } from './class.directive';
+import { TestdirevtiveDirective } from './testdirevtive.directive';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,ClassDirective] ,
+  imports: [RouterOutlet,CommonModule,ClassDirective,TestdirevtiveDirective] ,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
