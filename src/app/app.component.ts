@@ -3,12 +3,13 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ClassDirective } from './class.directive';
 import { TestdirevtiveDirective } from './testdirevtive.directive';
+import { TimesDirective} from './times.directive';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,ClassDirective,TestdirevtiveDirective] ,
+  imports: [RouterOutlet,CommonModule,ClassDirective,TestdirevtiveDirective,TimesDirective] ,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -15,8 +15,14 @@
         </li> 
 
     </ul>
+
 </nav>
 <div>
     <h2 appClass [backgroundColor]="'blue'">{{images[currentPage].title}} </h2>
     <img [src]="images[currentPage].url" alt="" style="max-width: 800px; max-height: 600px;">
 </div> 
+<ul *appTimes = '3'>
+    <li>test 1</li>
+    <li>test 2</li>
+    <li>test 3</li>
+</ul>
